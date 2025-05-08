@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(90deg, #000000, #393E46);
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background: linear-gradient(45deg, #00ff88, #ff69b4);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  nav {
+    background: linear-gradient(45deg, #948979, #DFD0B8);    padding: 1rem;
+    text-align: center;
+    text-shadow: 100% (#000000); padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-shadow: #000000;
+    text-decoration: none;
+  }
+  
+  section {
+    color: #DFD0B8;
+    text-shadow: #000000;
+    padding: 2rem;
+    text-align: center;
+  }
+ 
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  
+  .card {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 100px (#000000); padding: 2rem;
+    background: linear-gradient(45deg, #948979, #DFD0B8);    padding: 1rem;
+    text-align: center;
+    box-shadow: #000000;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  input, textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  button {
+    padding: 0.8rem;
+    background: linear-gradient(45deg, #948979, #DFD0B8);    padding: 1rem;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #27ae60;
+  }
+  
+  footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+
+  .layanan-gambar {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .layanan-gambar img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  

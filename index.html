@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <body class="fade-in">
+
 
   <!-- Navbar -->
   <nav>
@@ -39,4 +41,14 @@
   </section>
 
 </body>
+<script>
+  // Tambahkan animasi pada body
+  document.body.classList.add("fade-in");
+
+  // Cek login
+  if (!localStorage.getItem("loggedIn")) {
+    window.location.href = "login.html";
+  }
+</script>
+
 </html>
